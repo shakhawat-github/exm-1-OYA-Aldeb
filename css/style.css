@@ -339,7 +339,7 @@ body {
 #article .artical-box .item {
   padding: 29px 26px;
   background-color: #ffffff;
-  width: 32%;
+  width: 32.5%;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 3px 5px;
 }
 #article .artical-box .item .image {
@@ -413,3 +413,111 @@ body {
   letter-spacing: 0.12px;
 }
 /* article end */
+/* instagram start */
+#insta {
+  padding: 0 0 160px;
+}
+#insta .insta-box {
+  display: flex;
+}
+#insta .insta-box .title {
+  width: 40%;
+}
+#insta .insta-box .title p {
+  margin-top: 32px;
+  max-width: 400px;
+}
+#insta .insta-box .title a {
+  margin-top: 56px;
+  padding: 16px 24px;
+  background-color: #4505fb;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+#insta .insta-box .element {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 13px;
+}
+#insta .insta-box .element .item {
+  width: 49%;
+  height: 349px;
+  background-color: #e2e2e2;
+}
+/* instagram end */
+/* footer start */
+#footer {
+  padding: 124px 0 0;
+  background: url("/svg/footerbg.svg");
+}
+#footer .footbox {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #cccccc;
+}
+#footer .footbox .footlogo .logo {
+  max-width: 170px;
+}
+#footer .footbox .footlogo p {
+  margin-top: 16px;
+  max-width: 400px;
+}
+#footer .footbox .footlist .footnav {
+  display: flex;
+  column-gap: 60px;
+}
+#footer .footbox .footlist .footnav li a {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+#footer .footbox .footlist .icon {
+  margin-top: 64px;
+  display: flex;
+  justify-content: end;
+  column-gap: 16px;
+}
+#footer .footbox .footlist .icon li a {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #4505fb;
+  text-transform: capitalize;
+}
+#footer .copyright {
+  padding: 24px 0 40px;
+}
+#footer .copyright p {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+/* footer end */

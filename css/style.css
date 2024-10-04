@@ -102,7 +102,7 @@ body {
 
 /* banner start */
 #banner {
-  padding: 180px 0 254px;
+  padding: 180px 0 355px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -111,7 +111,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: calc(50% + 300px);
+  width: calc(50% + 254px);
   z-index: -1;
 }
 #banner .bnrbox {
@@ -329,7 +329,7 @@ body {
   margin-top: 24px;
   font-size: 15px;
 }
-#article .article-top .txt a{
+#article .article-top .txt a {
   color: #3ed1ba;
   font-size: 16px;
   font-weight: 500;
@@ -435,7 +435,7 @@ body {
 #insta .insta-box .title a {
   margin-top: 56px;
   padding: 16px 24px;
-  background-color: #7D50FF;
+  background-color: #7d50ff;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -512,7 +512,7 @@ body {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  background-color: #AC8FFF;
+  background-color: #ac8fff;
   text-transform: capitalize;
 }
 #footer .copyright {
